@@ -1,0 +1,91 @@
+body {
+    background-image: url("./../images/amuse.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    border: 10px solid rgba(189, 183, 107, 0.681);
+    background-color: rgba(8, 8, 8, 0.473);
+    text-align: center;
+    padding: 20px;
+    margin: 20px 400px; 
+    
+    
+}
+div.head {
+    border: 10px solid rgba(189, 183, 107, 0.681);
+    image-rendering: auto;
+    text-align: center;
+    margin-top: 50;
+    margin-left: 500px;
+    margin-right: 500px; 
+    
+}
+div.header1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+div.culinary {
+    text-align: center;
+    padding-top: 15px;
+}
+ul {
+    border:  solid;
+    padding: 2.5%;
+    font-size: x-large;
+    background-color: rgba(148, 165, 216, 0.329);
+    
+}    
+
+table {
+    width: 100%;   
+}
+caption {
+    font-weight: bolder;
+    font-size: 20px;
+}
+table, th, tr {	
+    border: 1px, solid;
+    color: black;
+    border-collapse: collapse;
+}
+
+td:hover {background-color: lightcyan;}
+tr:hover {background-color: lightcyan;}
+th {
+    background-color: burlywood;
+    font-style: italic;
+    font-weight: bold;
+}
+tfoot {
+    font-size: larger;
+    font-weight: bold;
+    border: solid;
+}
+div.gallery {
+    border: 2px, solid, black;  
+    margin-left: 500px;
+    text-align: center;
+    margin-right: 500px;
+    background-color: rgba(11, 133, 133, 0.192);   
+}
+div.gallery.img{
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(189, 183, 107, 0.681);
+
+}
